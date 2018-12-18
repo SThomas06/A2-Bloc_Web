@@ -1,0 +1,107 @@
+/* Eléments principaux de la page */
+
+#bloc_page
+{
+    width: 75%;
+    margin: auto;
+}
+
+/* Header */
+
+header
+{
+    display: flex;
+    align-items: center;
+}
+
+header div{
+    width: 75%;
+    text-align: right;
+    margin-right: 0,5em;
+    font-size: 2em;
+    padding-bottom: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Bannière */
+
+#banniere_image
+{
+    margin-top: 15px;
+    height: 50em;
+    border-radius: 5px;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+#banniere_description
+{
+    position: relative;
+    bottom: 5%;
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+    height: 5%;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 1 em;
+    
+}
+
+/* Corps */
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+article, aside
+{
+    text-align: justify;
+}
+
+article
+{
+    margin-right: 20px;
+    flex: 3;
+}
+
+article p
+{
+    font-size: 0.8em;
+}
+
+aside
+{
+    flex: 1.2;
+    position: relative;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+
+/* Footer */
+
+footer
+{
+    display: inline-flex;
+    align-items: center;
+    padding-top: 25px;
+}
+
+footer div
+{
+    color: black;
+    display: flex;
+    padding-right: 2em;
+    text-align: center;
+}
